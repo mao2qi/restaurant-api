@@ -4,4 +4,4 @@
 
 # PandoraAI
 
-PandoraAI is a web chat
+PandoraAI is a web chat client powered by [node-c
