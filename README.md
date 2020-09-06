@@ -4,4 +4,4 @@
 
 # PandoraAI
 
-PandoraAI is a web chat client powered by [node-chatgpt-api](https://github.com/way
+PandoraAI is a web chat client powered by [node-chatgpt-api](https://github.com/waylaidwanderer/node-chatgpt-api
