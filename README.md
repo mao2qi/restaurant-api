@@ -12,4 +12,4 @@ You may also use PandoraAI with other API server implementations as long as the 
 ## Features
 
 - Chat with all the AI that `node-chatgpt-api` supports, including `gpt-3.5-turbo`, `text-davinci-003`, ChatGPT, and Bing.
-- Supports cre
+- Supports creating multiple presets for e
