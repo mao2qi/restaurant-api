@@ -11,4 +11,4 @@ You may also use PandoraAI with other API server implementations as long as the 
 
 ## Features
 
-- Chat with all the AI that `node
+- Chat with all the AI that `node-chatgpt-api` supports, including `gpt-
