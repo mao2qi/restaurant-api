@@ -15,4 +15,5 @@ You may also use PandoraAI with other API server implementations as long as the 
 - Supports creating multiple presets for each client.  
 ![Client Settings](demos/client-settings.png) 
 - Choose between different clients or custom presets.  
-![Client Dropdown](demos/clien
+![Client Dropdown](demos/client-dropdown.png)
+- Everythin
