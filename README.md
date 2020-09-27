@@ -16,4 +16,4 @@ You may also use PandoraAI with other API server implementations as long as the 
 ![Client Settings](demos/client-settings.png) 
 - Choose between different clients or custom presets.  
 ![Client Dropdown](demos/client-dropdown.png)
-- Everythin
+- Everything is stored in local stora
