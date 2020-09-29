@@ -16,4 +16,7 @@ You may also use PandoraAI with other API server implementations as long as the 
 ![Client Settings](demos/client-settings.png) 
 - Choose between different clients or custom presets.  
 ![Client Dropdown](demos/client-dropdown.png)
-- Everything is stored in local storage, so you can use this client without an account, and it can be imported or exported to oth
+- Everything is stored in local storage, so you can use this client without an account, and it can be imported or exported to other devices.
+
+<details>
+<summ
