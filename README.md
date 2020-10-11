@@ -21,4 +21,8 @@ You may also use PandoraAI with other API server implementations as long as the 
 <details>
 <summary><strong>Nuxt 3 Setup</strong></summary>
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) t
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+## Setup
+
+Ma
