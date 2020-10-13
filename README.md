@@ -25,4 +25,4 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 ## Setup
 
-Ma
+Make sure to install the depend
