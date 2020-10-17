@@ -38,4 +38,6 @@ npm install
 pnpm install
 ```
 
-## Dev
+## Development Server
+
+Start the development serve
