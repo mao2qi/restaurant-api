@@ -48,4 +48,7 @@ npm run dev
 
 ## Production
 
-Build the appli
+Build the application for production:
+
+```bash
+n
