@@ -51,4 +51,7 @@ npm run dev
 Build the application for production:
 
 ```bash
-n
+npm run build
+```
+
+Locally
