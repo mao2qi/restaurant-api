@@ -54,4 +54,10 @@ Build the application for production:
 npm run build
 ```
 
-Locally preview production bui
+Locally preview production build:
+
+```bash
+npm run preview
+```
+
+Che
