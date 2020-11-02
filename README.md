@@ -60,4 +60,4 @@ Locally preview production build:
 npm run preview
 ```
 
-Che
+Check out the [deployment docume
