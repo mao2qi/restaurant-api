@@ -60,4 +60,4 @@ Locally preview production build:
 npm run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/gettin
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for mo
