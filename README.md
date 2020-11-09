@@ -63,3 +63,6 @@ npm run preview
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 </details>
 
+## Setup
+
+1. Follow the Nuxt 3 set
