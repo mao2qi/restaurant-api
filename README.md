@@ -66,4 +66,4 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 ## Setup
 
 1. Follow the Nuxt 3 setup instructions above.
-2. Run the API server from [node-chatgpt-api](https:
+2. Run the API server from [node-chatgpt-api](https://github.com/waylaidwanderer/node-ch
