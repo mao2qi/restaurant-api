@@ -71,4 +71,4 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 4. Run `npm run dev` to start the development server, or `npm run build` to build the application for production.
 
 ## Contributing
-If you'd like to contribute to this project, pleas
+If you'd like to contribute to this project, please create a pull request with a
