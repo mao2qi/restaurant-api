@@ -1,3 +1,4 @@
 <script setup>
 // eslint-disable-next-line import/no-extraneous-dependencies
-import 'fork-corner/dist/fo
+import 'fork-corner/dist/fork-corner.css';
+import
