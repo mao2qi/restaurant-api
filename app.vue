@@ -1,3 +1,3 @@
 <script setup>
 // eslint-disable-next-line import/no-extraneous-dependencies
-impor
+import 'fork-corner/dist/fo
