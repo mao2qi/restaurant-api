@@ -74,4 +74,4 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 If you'd like to contribute to this project, please create a pull request with a detailed description of your changes.
 
 ## License
-This projec
+This project is licensed under the MIT License.
