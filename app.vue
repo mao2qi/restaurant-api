@@ -3,4 +3,4 @@
 import 'fork-corner/dist/fork-corner.css';
 import { storeToRefs } from 'pinia';
 import initForkCorner from '~/fork-corner';
-import AppSidebar
+import AppSidebar from '~/components/AppSidebar.vue'
