@@ -5,4 +5,4 @@ import { storeToRefs } from 'pinia';
 import initForkCorner from '~/fork-corner';
 import AppSidebar from '~/components/AppSidebar.vue';
 import { useAppStore } from '~/stores/app';
-import { useConversationsSto
+import { useConversationsStore } from '~/stores/conversations';
