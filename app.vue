@@ -6,3 +6,5 @@ import initForkCorner from '~/fork-corner';
 import AppSidebar from '~/components/AppSidebar.vue';
 import { useAppStore } from '~/stores/app';
 import { useConversationsStore } from '~/stores/conversations';
+
+const appStore = useAppStore(
