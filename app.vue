@@ -8,4 +8,7 @@ import { useAppStore } from '~/stores/app';
 import { useConversationsStore } from '~/stores/conversations';
 
 const appStore = useAppStore();
-const conversationsStore = useCo
+const conversationsStore = useConversationsStore();
+
+const {
+    isMenuOpen
