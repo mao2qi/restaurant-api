@@ -11,4 +11,6 @@ const appStore = useAppStore();
 const conversationsStore = useConversationsStore();
 
 const {
-    isMenuOpen
+    isMenuOpen,
+    isMenuOpening,
+} =
