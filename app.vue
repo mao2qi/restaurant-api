@@ -17,4 +17,6 @@ const {
 
 const {
     conversationTitle,
-} = sto
+} = storeToRefs(conversationsStore);
+
+useHead
