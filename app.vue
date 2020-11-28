@@ -13,4 +13,7 @@ const conversationsStore = useConversationsStore();
 const {
     isMenuOpen,
     isMenuOpening,
-} =
+} = storeToRefs(appStore);
+
+const {
+  
