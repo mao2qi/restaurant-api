@@ -16,4 +16,5 @@ const {
 } = storeToRefs(appStore);
 
 const {
-  
+    conversationTitle,
+} = sto
