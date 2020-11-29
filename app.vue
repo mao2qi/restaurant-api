@@ -22,4 +22,5 @@ const {
 useHead({
     title: `${conversationTitle.value} - PandoraAI`,
     meta: [
- 
+        {
+            name: 'viewpor
