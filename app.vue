@@ -20,4 +20,6 @@ const {
 } = storeToRefs(conversationsStore);
 
 useHead({
-    title: `${conversatio
+    title: `${conversationTitle.value} - PandoraAI`,
+    meta: [
+ 
