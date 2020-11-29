@@ -19,4 +19,5 @@ const {
     conversationTitle,
 } = storeToRefs(conversationsStore);
 
-useHead
+useHead({
+    title: `${conversatio
