@@ -24,4 +24,4 @@ useHead({
     meta: [
         {
             name: 'viewport',
-            content: 'width=
+            content: 'width=device-width, initial-scal
