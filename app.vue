@@ -23,4 +23,5 @@ useHead({
     title: `${conversationTitle.value} - PandoraAI`,
     meta: [
         {
-            name: 'viewpor
+            name: 'viewport',
+            content: 'width=
