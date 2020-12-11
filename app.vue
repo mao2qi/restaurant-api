@@ -36,4 +36,5 @@ onMounted(() => {
 
 <template>
     <a
-        href="https://github.c
+        href="https://github.com/waylaidwanderer/PandoraAI"
+   
