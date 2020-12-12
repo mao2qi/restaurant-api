@@ -38,4 +38,5 @@ onMounted(() => {
     <a
         href="https://github.com/waylaidwanderer/PandoraAI"
         target="_blank"
-    
+        id="fork-corner"
+ 
