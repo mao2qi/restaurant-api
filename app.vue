@@ -47,4 +47,5 @@ onMounted(() => {
         <Transition name="fade">
             <div
                 v-if="isMenuOpen"
-                @clic
+                @click="isMenuOpen = false"
+            
