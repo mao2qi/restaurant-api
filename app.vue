@@ -46,4 +46,5 @@ onMounted(() => {
         <AppSidebar/>
         <Transition name="fade">
             <div
-                v-if="i
+                v-if="isMenuOpen"
+                @clic
