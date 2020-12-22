@@ -48,4 +48,4 @@ onMounted(() => {
             <div
                 v-if="isMenuOpen"
                 @click="isMenuOpen = false"
-            
+                class="fixed inset
