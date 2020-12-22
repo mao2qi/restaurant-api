@@ -42,4 +42,6 @@ onMounted(() => {
         class="fork-corner fc-size-small fc-pos-tr fc-animate fc-theme-github"
         title="Fork me on GitHub"
     ></a>
-    <div class="flex flex-row min-h-screen text-slate-300
+    <div class="flex flex-row min-h-screen text-slate-300">
+        <AppSidebar/>
+   
