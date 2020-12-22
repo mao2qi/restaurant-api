@@ -44,4 +44,5 @@ onMounted(() => {
     ></a>
     <div class="flex flex-row min-h-screen text-slate-300">
         <AppSidebar/>
-   
+        <Transition name="fade">
+         
