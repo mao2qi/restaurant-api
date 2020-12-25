@@ -51,4 +51,5 @@ onMounted(() => {
                 class="fixed inset-0 bg-black/30 z-10 lg:hidden" aria-hidden="true"
             />
         </Transition>
-    
+        <div
+            class="flex flex-col 
