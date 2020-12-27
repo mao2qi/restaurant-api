@@ -53,4 +53,5 @@ onMounted(() => {
         </Transition>
         <div
             class="flex flex-col flex-1 w-full"
-          
+            :class="{
+                'lg:ml-[2
