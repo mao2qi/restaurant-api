@@ -52,4 +52,5 @@ onMounted(() => {
             />
         </Transition>
         <div
-            class="flex flex-col 
+            class="flex flex-col flex-1 w-full"
+          
