@@ -54,4 +54,4 @@ onMounted(() => {
         <div
             class="flex flex-col flex-1 w-full"
             :class="{
-                'lg:ml-[2
+                'lg:ml-[20rem] transition-all ease-
