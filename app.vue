@@ -54,4 +54,5 @@ onMounted(() => {
         <div
             class="flex flex-col flex-1 w-full"
             :class="{
-                'lg:ml-[20rem] transition-all ease-
+                'lg:ml-[20rem] transition-all ease-in-out': isMenuOpening,
+                'lg:
