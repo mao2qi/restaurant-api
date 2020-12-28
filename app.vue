@@ -55,4 +55,5 @@ onMounted(() => {
             class="flex flex-col flex-1 w-full"
             :class="{
                 'lg:ml-[20rem] transition-all ease-in-out': isMenuOpening,
-                'lg:
+                'lg:ml-0': !isMenuOpening,
+          
