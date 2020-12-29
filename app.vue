@@ -58,4 +58,4 @@ onMounted(() => {
                 'lg:ml-0': !isMenuOpening,
             }"
         >
-            <header class="px-3 py-6 text-cen
+            <header class="px-3 py-6 text-center bg-purple-500/[15%] bac
