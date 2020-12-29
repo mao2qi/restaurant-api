@@ -56,4 +56,6 @@ onMounted(() => {
             :class="{
                 'lg:ml-[20rem] transition-all ease-in-out': isMenuOpening,
                 'lg:ml-0': !isMenuOpening,
-          
+            }"
+        >
+            <header cl
