@@ -61,4 +61,5 @@ onMounted(() => {
             <header class="px-3 py-6 text-center bg-purple-500/[15%] backdrop-blur shadow">
                 <!-- Menu icon -->
                 <button
-                    @clic
+                    @click="isMenuOpen = true"
+         
