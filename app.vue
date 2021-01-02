@@ -62,4 +62,5 @@ onMounted(() => {
                 <!-- Menu icon -->
                 <button
                     @click="isMenuOpen = true"
-         
+                    class="
+                        abs
