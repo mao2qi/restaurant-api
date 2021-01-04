@@ -69,4 +69,4 @@ onMounted(() => {
                         lg:hidden
                     "
                 >
-                    <I
+                    <Icon name="bx:bx-menu" class="w-8
