@@ -68,4 +68,5 @@ onMounted(() => {
                         transition duration-300 ease-in-out
                         lg:hidden
                     "
-   
+                >
+                    <I
