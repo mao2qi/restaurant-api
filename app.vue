@@ -71,4 +71,6 @@ onMounted(() => {
                 >
                     <Icon name="bx:bx-menu" class="w-8 h-8" />
                 </button>
-                <!-- Show/Hide sidebar button (lg) 
+                <!-- Show/Hide sidebar button (lg) -->
+                <button
+     
