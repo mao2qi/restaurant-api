@@ -73,4 +73,5 @@ onMounted(() => {
                 </button>
                 <!-- Show/Hide sidebar button (lg) -->
                 <button
-                    @click="isMenuOpen = !is
+                    @click="isMenuOpen = !isMenuOpen"
+                    c
