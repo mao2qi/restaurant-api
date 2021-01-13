@@ -77,4 +77,5 @@ onMounted(() => {
                     class="
                         absolute top-0 left-0 p-3 ml-3 mt-3 text-white/70 hover:text-white/90 z-10
                         focus:outline-none
-                        transition duration-300 ease-in-o
+                        transition duration-300 ease-in-out
+                        
