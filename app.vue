@@ -76,4 +76,5 @@ onMounted(() => {
                     @click="isMenuOpen = !isMenuOpen"
                     class="
                         absolute top-0 left-0 p-3 ml-3 mt-3 text-white/70 hover:text-white/90 z-10
-                        foc
+                        focus:outline-none
+                     
