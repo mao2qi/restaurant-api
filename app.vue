@@ -82,4 +82,5 @@ onMounted(() => {
                     "
                 >
                     <Icon
-                        :name="isMenuOpen ? 'bx:bx-chevron-left' : 
+                        :name="isMenuOpen ? 'bx:bx-chevron-left' : 'bx:bx-chevron-right'"
+                  
