@@ -84,4 +84,6 @@ onMounted(() => {
                     <Icon
                         :name="isMenuOpen ? 'bx:bx-chevron-left' : 'bx:bx-chevron-right'"
                         class="w-8 h-8"
-            
+                    />
+                </button>
+     
