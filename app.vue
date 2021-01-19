@@ -87,4 +87,4 @@ onMounted(() => {
                     />
                 </button>
                 <!-- Title -->
-                <h1 class="text-2
+                <h1 class="text-2xl font-bold text-white/80 drop
