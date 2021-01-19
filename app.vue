@@ -87,4 +87,4 @@ onMounted(() => {
                     />
                 </button>
                 <!-- Title -->
-   
+                <h1 class="text-2
