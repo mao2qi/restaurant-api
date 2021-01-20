@@ -89,4 +89,4 @@ onMounted(() => {
                 <!-- Title -->
                 <h1 class="text-2xl font-bold text-white/80 drop-shadow-md">Pandora<span class="font-light">AI</span></h1>
             </header>
-         
+            <main class="flex flex-grow py-2"
