@@ -87,4 +87,4 @@ onMounted(() => {
                     />
                 </button>
                 <!-- Title -->
-                <h1 class="text-2xl font-bold text-white/80 drop-shadow-md">Pandora<span class="f
+                <h1 class="text-2xl font-bold text-white/80 drop-shadow-md">Pandora<span class="font-light">AI</span></h1>
