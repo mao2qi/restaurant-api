@@ -91,4 +91,5 @@ onMounted(() => {
             </header>
             <main class="flex flex-grow py-2">
                 <Chat/>
-   
+            </main>
+            <footer 
