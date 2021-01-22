@@ -92,4 +92,5 @@ onMounted(() => {
             <main class="flex flex-grow py-2">
                 <Chat/>
             </main>
-            <footer 
+            <footer class="px-3 pb-6 text-center">
+           
