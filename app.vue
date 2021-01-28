@@ -93,4 +93,5 @@ onMounted(() => {
                 <Chat/>
             </main>
             <footer class="px-3 pb-6 text-center">
-                <span class="text-xs font-light text
+                <span class="text-xs font-light text-slate-400">
+                    
