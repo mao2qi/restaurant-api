@@ -95,4 +95,4 @@ onMounted(() => {
             <footer class="px-3 pb-6 text-center">
                 <span class="text-xs font-light text-slate-400">
                     powered by
-                    <a 
+                    <a href="https://github.com/waylaidwanderer/no
