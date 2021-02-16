@@ -96,4 +96,4 @@ onMounted(() => {
                 <span class="text-xs font-light text-slate-400">
                     powered by
                     <a href="https://github.com/waylaidwanderer/node-chatgpt-api" target="_blank">
-                        https://github.com/waylaidwan
+                        https://github.com/waylaidwanderer/node-chatgpt
