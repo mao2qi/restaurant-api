@@ -99,4 +99,7 @@ onMounted(() => {
                         https://github.com/waylaidwanderer/node-chatgpt-api
                     </a>
                 </span>
-            </foot
+            </footer>
+        </div>
+    </div>
+</tem
