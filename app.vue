@@ -98,4 +98,5 @@ onMounted(() => {
                     <a href="https://github.com/waylaidwanderer/node-chatgpt-api" target="_blank">
                         https://github.com/waylaidwanderer/node-chatgpt-api
                     </a>
-       
+                </span>
+            </foot
