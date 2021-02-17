@@ -102,4 +102,8 @@ onMounted(() => {
             </footer>
         </div>
     </div>
-</tem
+</template>
+
+<style>
+:root {
+    --backgro
