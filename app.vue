@@ -109,4 +109,6 @@ onMounted(() => {
     --background: hsl(240, 80%, 10%);
 }
 
-bod
+body {
+    background:
+        
