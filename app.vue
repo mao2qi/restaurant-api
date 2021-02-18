@@ -106,4 +106,7 @@ onMounted(() => {
 
 <style>
 :root {
-    --backgro
+    --background: hsl(240, 80%, 10%);
+}
+
+bod
