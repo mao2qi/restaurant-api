@@ -112,4 +112,5 @@ onMounted(() => {
 body {
     background:
         radial-gradient(
-            60vmax 
+            60vmax 60vmax at 0% 0%,
+            h
