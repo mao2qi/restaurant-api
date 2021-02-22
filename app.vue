@@ -113,4 +113,5 @@ body {
     background:
         radial-gradient(
             60vmax 60vmax at 0% 0%,
-            h
+            hsla(240, 100%, 2%, 0.9) 0%,
+    
