@@ -117,3 +117,4 @@ body {
             hsla(240, 100%, 2%, 0) 95%),
         radial-gradient(
             80vmax 50vmax at 110% -10%,
+            hsla(175, 100%, 60%
