@@ -118,4 +118,5 @@ body {
         radial-gradient(
             80vmax 50vmax at 110% -10%,
             hsla(175, 100%, 60%, 0.9) 0%,
-            hsla(20
+            hsla(200, 100%, 50%, 0.5) 50%,
+        
