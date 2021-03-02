@@ -124,4 +124,8 @@ body {
             90vmax 50vmax at 50vmax 50vmax,
             hsla(260, 100%, 60%, 0.9) 0%,
             hsla(240, 100%, 60%, 0) 95%)
-        var(--backg
+        var(--background);
+}
+
+footer a {
+    @apply 
