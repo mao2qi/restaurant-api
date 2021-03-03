@@ -128,4 +128,4 @@ body {
 }
 
 footer a {
-    @apply 
+    @apply opacity-75 hover:opacity-100 transition 
