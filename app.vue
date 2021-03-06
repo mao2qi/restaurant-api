@@ -135,3 +135,5 @@ footer a {
 }
 
 .fade-enter-active,
+.fade-leave-active {
+    transit
