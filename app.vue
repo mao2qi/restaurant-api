@@ -128,4 +128,4 @@ body {
 }
 
 footer a {
-    @apply opacity-75 hover:opacity-100 transition 
+    @apply opacity-75 hover:opacity-100 transition duration-300 ease-in-out
