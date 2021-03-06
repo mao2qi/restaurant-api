@@ -129,4 +129,5 @@ body {
 
 footer a {
     @apply opacity-75 hover:opacity-100 transition duration-300 ease-in-out;
-    background: linear-gradient(to rig
+    background: linear-gradient(to right, #37feff 0%, #bd7bff 100%);
+    
