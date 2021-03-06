@@ -128,4 +128,5 @@ body {
 }
 
 footer a {
-    @apply opacity-75 hover:opacity-100 transition duration-300 ease-in-out
+    @apply opacity-75 hover:opacity-100 transition duration-300 ease-in-out;
+    background: linear-gradient(to rig
