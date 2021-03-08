@@ -136,4 +136,5 @@ footer a {
 
 .fade-enter-active,
 .fade-leave-active {
-    transit
+    transition: opacity 0.15s ease-in-out;
+}
