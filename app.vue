@@ -138,3 +138,5 @@ footer a {
 .fade-leave-active {
     transition: opacity 0.15s ease-in-out;
 }
+.fade-enter-from,
+.fade-leave-to {
