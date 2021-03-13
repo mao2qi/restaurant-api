@@ -140,3 +140,8 @@ footer a {
 }
 .fade-enter-from,
 .fade-leave-to {
+    opacity: 0;
+}
+
+#fork-corner {
+    z-in
