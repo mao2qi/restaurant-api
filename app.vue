@@ -146,4 +146,7 @@ footer a {
 #fork-corner {
     z-index: 41;
     top: 5px !important;
-    right: 5px !important
+    right: 5px !important;
+}
+
+.fork-corner.fc
