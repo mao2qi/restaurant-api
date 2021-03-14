@@ -149,4 +149,5 @@ footer a {
     right: 5px !important;
 }
 
-.fork-corner.fc
+.fork-corner.fc-theme-github + div {
+    top:
