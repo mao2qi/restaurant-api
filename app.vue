@@ -151,4 +151,5 @@ footer a {
 
 .fork-corner.fc-theme-github + div {
     top: -88px !important;
-    rig
+    right: -88px !important;
+    @apply 
