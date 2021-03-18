@@ -156,4 +156,5 @@ footer a {
 }
 
 .fork-corner.fc-theme-github > i {
- 
+    @apply text-white/80;
+    font-
