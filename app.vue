@@ -152,4 +152,7 @@ footer a {
 .fork-corner.fc-theme-github + div {
     top: -88px !important;
     right: -88px !important;
-    @apply 
+    @apply shadow bg-black/50 z-40;
+}
+
+.for
