@@ -155,4 +155,5 @@ footer a {
     @apply shadow bg-black/50 z-40;
 }
 
-.for
+.fork-corner.fc-theme-github > i {
+ 
