@@ -164,4 +164,6 @@ footer a {
     width: 9px;
 }
 ::-webkit-scrollbar-track {
-    background: transparen
+    background: transparent;
+}
+::-webkit-scrollbar-th
