@@ -160,4 +160,5 @@ footer a {
     font-size: 35px !important;
 }
 
-::-w
+::-webkit-scrollbar {
+    width: 9px
