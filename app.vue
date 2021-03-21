@@ -166,4 +166,5 @@ footer a {
 ::-webkit-scrollbar-track {
     background: transparent;
 }
-::-webkit-scrollbar-th
+::-webkit-scrollbar-thumb {
+    background-color: rg
