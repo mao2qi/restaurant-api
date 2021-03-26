@@ -169,4 +169,6 @@ footer a {
 ::-webkit-scrollbar-thumb {
     background-color: rgba(155, 155, 155, 0.5);
     border-radius: 20px;
-    border: tr
+    border: transparent;
+}
+</style>
