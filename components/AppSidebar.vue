@@ -39,3 +39,40 @@ const startNewConversationHandler = () => {
 };
 
 const setCurrentConversationIdHandler = (conversationId) => {
+    setCurrentConversationId(conversationId);
+    if (isMobileMenu.value) {
+        isMenuOpen.value = false;
+    }
+};
+
+const deleteConversationHandler = (conversationId) => {
+    deleteConversation(conversationId);
+};
+
+const clearConversationsHandler = () => {
+    if (!isConfirmingClear.value) {
+        isConfirmingClear.value = setTimeout(() => {
+            isConfirmingClear.value = false;
+        }, 3000);
+        return;
+    }
+    clearConversations();
+    clearTimeout(isConfirmingClear.value);
+    isConfirmingClear.value = false;
+};
+</script>
+
+<template>
+    <div
+        class="
+            flex flex-col bg-purple-300/10 flex-1 max-w-xs shadow-lg
+            absolute top-0 left-0 h-screen z-50 w-full
+            backdrop-blur-lg
+            transition-all duration-300 ease-in-out
+        "
+        :class="{
+            'translate-x-0 absolute lg:static': isMenuOpen,
+            '!absolute': isMenuOpening,
+            '-translate-x-full': !isMenuOpen,
+        }"
+    >
