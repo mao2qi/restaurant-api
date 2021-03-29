@@ -111,3 +111,34 @@ const clearConversationsHandler = () => {
                     <span class="flex flex-col flex-1 text-left">
                         <span class="text-sm font-bold text-white/80">New Chat</span>
                         <span class="text-xs text-white/60">Click to start a new chat</span>
+                    </span>
+                <Icon name="bx:bx-plus" class="w-8 h-8"/>
+            </button>
+        </div>
+        <!-- Conversations -->
+        <div
+            class="flex-1 flex flex-col gap-1 p-3 overflow-y-auto"
+        >
+            <TransitionGroup name="slide-from-left">
+                <div
+                    v-for="conversation in sortedConversations"
+                    :key="conversation.id"
+                    class="flex flex-row items-stretch rounded p-3 pr-0 border-2 border-purple-300/5 hover:border-purple-300/10"
+                    :class="{ '!border-purple-300/20': conversation.id === currentConversationId }"
+                >
+                    <button
+                        class="flex flex-col flex-1 text-left overflow-hidden"
+                        @click="setCurrentConversationIdHandler(conversation.id)"
+                        :disabled="!!processingController"
+                        :class="{ 'cursor-not-allowed': !!processingController }"
+                    >
+                        <span
+                            class="text-sm mb-1 flex flex-row items-center gap-2 w-full"
+                            :title="conversation.title"
+                        >
+                            <GPTIcon
+                                v-if="(conversation.activePreset?.client || conversation.activePresetName) === 'chatgpt'"
+                                class="h-3 rounded-lg opacity-80"
+                            />
+                            <GPTIcon
+                                v-else-if="(conversation.activePreset?.client || conversation.activePresetName) === 'chatgpt-browser'"
