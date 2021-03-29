@@ -173,3 +173,32 @@ const clearConversationsHandler = () => {
             <button
                 @click="clearConversationsHandler"
                 class="flex gap-1 items-center justify-center text-white/60 transition duration-300 hover:text-white/80"
+                :disabled="!!processingController"
+                :class="{ 'cursor-not-allowed': !!processingController }"
+            >
+                <Icon :name="isConfirmingClear ? 'bx:bx-check' : 'bx:bx-trash'" class="w-4 h-4 relative top-px"/>
+                Clear all conversations{{ isConfirmingClear ? '?' : '' }}
+            </button>
+            <div class="flex gap-3 items-center w-full">
+                <AppData/>
+            </div>
+        </div>
+    </div>
+</template>
+
+<style scoped>
+.slide-from-left-move,
+.slide-from-left-enter-active,
+.slide-from-left-leave-active {
+    transition: all 0.3s ease;
+}
+.slide-from-left-enter-from,
+.slide-from-left-leave-to {
+    transform: translateX(-320px);
+    opacity: 0;
+}
+
+.slide-from-left-leave-active {
+    opacity: 0;
+}
+</style>
