@@ -142,3 +142,34 @@ const clearConversationsHandler = () => {
                             />
                             <GPTIcon
                                 v-else-if="(conversation.activePreset?.client || conversation.activePresetName) === 'chatgpt-browser'"
+                                class="h-3 text-[#6ea194] rounded-lg opacity-80"
+                            />
+                            <BingIcon
+                                v-else-if="(conversation.activePreset?.client || conversation.activePresetName) === 'bing'"
+                                class="h-3 rounded-lg opacity-80"
+                            />
+                            <span class="flex-1 truncate">{{ conversation.title || 'New Chat' }}</span>
+                        </span>
+                        <span class="text-xs text-white/30 truncate">
+                            {{ conversation.id }}
+                        </span>
+                        <span class="text-xs text-white/40">
+                            {{ (new Date(conversation.updatedAt)).toLocaleString() }}
+                        </span>
+                    </button>
+                    <button
+                        @click="deleteConversationHandler(conversation.id)"
+                        class="flex items-center justify-center px-3 text-white/30 hover:text-white/60"
+                        :disabled="!!processingController"
+                        :class="{ 'cursor-not-allowed': !!processingController }"
+                    >
+                        <Icon name="bx:bx-trash" class="w-4 h-4"/>
+                    </button>
+                </div>
+            </TransitionGroup>
+        </div>
+        <!-- Sidebar footer -->
+        <div class="flex flex-col items-start gap-2 bg-black/10 p-6 min-h-[100px] text-sm">
+            <button
+                @click="clearConversationsHandler"
+                class="flex gap-1 items-center justify-center text-white/60 transition duration-300 hover:text-white/80"
