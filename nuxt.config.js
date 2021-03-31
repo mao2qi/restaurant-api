@@ -1,1 +1,2 @@
-// https://nuxt.com/docs/api
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export 
