@@ -6,4 +6,5 @@ export default defineNuxtConfig({
             apiBaseUrl: process.env.API_BASE_URL,
         },
     },
-    i
+    imports: {
+        dirs: ['stores'
