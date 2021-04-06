@@ -17,4 +17,4 @@ export default defineNuxtConfig({
     ],
     css: [
         {
-            src: '~/n
+            src: '~/node_modules/highlight.js/styl
