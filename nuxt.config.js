@@ -10,4 +10,5 @@ export default defineNuxtConfig({
         dirs: ['stores'],
     },
     modules: [
-        '@
+        '@nuxtjs/tailwindcss',
+        'nuxt-icon'
