@@ -17,4 +17,5 @@ export default defineNuxtConfig({
     ],
     css: [
         {
-            src: '~/node_modules/highlight.js/styl
+            src: '~/node_modules/highlight.js/styles/base16/dracula.css',
+            
