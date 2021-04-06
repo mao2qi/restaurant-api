@@ -15,4 +15,6 @@ export default defineNuxtConfig({
         '@pinia/nuxt',
         '@vueuse/nuxt',
     ],
-    c
+    css: [
+        {
+            src: '~/n
