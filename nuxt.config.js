@@ -21,4 +21,5 @@ export default defineNuxtConfig({
             lang: 'css',
         },
     ],
-   
+    pinia: {
+        autoImports: ['defi
