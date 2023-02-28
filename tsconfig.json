@@ -1,2 +1,3 @@
 {
-  // https://nuxt.com/docs/guide
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "
